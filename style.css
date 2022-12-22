@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    height: 69px;
+    box-shadow: 0px 1px 3px;
+    z-index: 1;
+}
+.lift-nav{
+    display: flex;
+}
+.lift-nav .fa-facebook {
+    color: #1877f2;
+    font-size: 35px;
+margin-top: 12px;
+margin-left: 8px;
+}
+.lift-nav .input{
+    position: absolute;
+    left: 43px;
+    top: 11px;
+    border: none;
+    margin-left: 3.5px;
+    background-color: #f5f0f0;
+    border-radius: 50px;
+    padding: 12px 20px 13px 42px;
+    color: #606770;
+    font-size: 20px;
+    height: 49px;
+}
+.lift-nav .fa-magnifying-glass {
+  position: absolute;
+  left: 59px;
+  top: 25px;
+}
+.middil-nav .fa-home{
+   color: #1877f2;
+   font-size: 36px;
+    position: absolute;
+    top: 20px;
+    left: 620px;
+    border-bottom: 10px;
+    border-bottom: #000000;
+}
+.middil-nav .fa-tv{
+    color: grey;
+    font-size: 36px;
+    position: absolute;
+    top: 20px;
+    left: 720px;
+}
+ .middil-nav .fa-store{
+    color: grey;
+    font-size: 36px;
+    position: absolute;
+    top: 20px;
+    left: 820px;
+ }
+ .middil-nav .fa-users{
+    color: grey;
+    font-size: 36px;
+    position: absolute;
+    top: 20px;
+    left: 920px;
+ }
+ .middil-nav .fa-puzzle-piece{
+    color: grey;
+    font-size: 36px;
+    position: absolute;
+    top: 20px;
+    left: 1020px;
+ }
+ .right-nav .pp{
+    position: absolute;
+    top: 10px;
+    right: 390px;
+    border-radius: 50px;
+ }
+ .right-nav .name{
+    position: absolute;
+    top: 26px;
+    right: 275px;
+ }
+ .right-nav .fa-bars{
+    color: grey;
+    font-size: 26px;
+    position: absolute;
+    top: 15px;
+    right: 200px;
+ }
+ .right-nav .fa-facebook-messenger{
+    color: grey;
+    font-size: 26px;
+    position: absolute;
+    top: 15px;
+    right: 150px;
+ }
+ .right-nav .fa-bell{
+    color: grey;
+    font-size: 26px;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+ }
+ .right-nav .fa-caret-down{
+    color: grey;
+    font-size: 26px;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+ }
+ .lift-side .pp2{
+   display: flex;
+   border-radius: 50px;
+   position: absolute;
+   top: 75px;
+   left: 11.5px;
+ }
+ .lift-side .name2{
+position: absolute;
+top: 95px;
+left: 72px;
+ }
+ .lift-side .p1{
+   position: absolute;
+   top: 120px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p2{
+   position: absolute;
+   top: 140px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p3{
+   position: absolute;
+   top: 180px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p4{
+   position: absolute;
+   top: 200px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p5{
+   position: absolute;
+   top: 240px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p6{
+   position: absolute;
+   top: 260px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p7{
+   position: absolute;
+   top: 300px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p8{
+   position: absolute;
+   top: 320px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p9{
+   position: absolute;
+   top: 360px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p10{
+   position: absolute;
+   top: 380px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p11{
+   position: absolute;
+   top: 420px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p12{
+   position: absolute;
+   top: 440px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p13{
+   position: absolute;
+   top: 480px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p14{
+   position: absolute;
+   top: 500px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p15{
+   position: absolute;
+   top: 540px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p16{
+   position: absolute;
+   top: 560px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p17{
+   position: absolute;
+   top: 600px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p18{
+   position: absolute;
+   top: 620px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p19{
+   position: absolute;
+   top: 660px;
+   left: px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p20{
+   position: absolute;
+   top: 680px;
+   left: 60px;
+   border-radius: 50px;
+   background-color: rgb(255, 255, 255);
+ }
+ .lift-side .p21{
+   position: absolute;
+   top: 720px;
+   left: px;
+   border-radius: 50px;
+ }
+ .lift-side .p22{
+   position: absolute;
+   top: 740px;
+   left: 60px;
+   border-radius: 50px;
+ }
+ .lift-side .p23{
+   position: absolute;
+   top: 780px;
+   left: px;
+   border-radius: 50px;
+ }
+ .lift-side .p24{
+   position: absolute;
+   top: 800px;
+   left: 60px;
+   border-radius: 50px;
+ }
+ .lift-side .p25{
+   position: absolute;
+   top: 840px;
+   left: px;
+   border-radius: 50px;
+ }
+ .lift-side .p26{
+   position: absolute;
+   top: 860px;
+   left: 60px;
+   border-radius: 50px;
+ }
+ .lift-side .p27{
+   position: absolute;
+   top: 900px;
+   left: px;
+   border-radius: 50px;
+ }
+ .lift-side .p28{
+   position: absolute;
+   top: 920px;
+   left: 60px;
+   border-radius: 50px;
+ }
+ .lift-side .p29{
+   position: absolute;
+   top: 960px;
+   left: px;
+   border-radius: 50px;
+ }
+ .lift-side .p30{
+   position: absolute;
+   top: 980px;
+   left: 60px;
+   border-radius: 50px;
+ }
+ .lift-side .p31{
+  position: absolute;
+  top: 1020px;
+  left: px;
+  border-radius: 50px;
+}
+.lift-side .p32{
+  position: absolute;
+  top: 1040px;
+  left: 60px;
+  border-radius: 50px;
+}
+.lift-side .p33{
+  position: absolute;
+  top: 1080px;
+  left: px;
+  border-radius: 50px;
+}
+.lift-side .p34{
+  position: absolute;
+  top: 1100px;
+  left: 60px;
+  border-radius: 50px;
+}
+.right-side .cc1{
+  position: absolute;
+  top: 110px;
+  right: 110px;
+  font-size: large;
+  color: #606770;
+}
+.right-side .c1{
+  position: absolute;
+  top: 150px;
+  right: 110px;
+  font-size: large;
+  color: #606770;
+}
+.right-side .c1{
+  position: absolute;
+  top: 150px;
+  right: 82px;
+  font-size: large;
+  color: #606770;
+ border-radius: 30px;
+}
+.right-side .c2{
+  position: absolute;
+  top: 150px;
+  right: 30px;
+  font-size: large;
+  color: #606770;
+}
+.right-side .c333{
+  position: absolute;
+  top: 170px;
+  right: 25px;
+  font-size: large;
+  color: #000000;
+}
+.right-side .c3{
+  position: absolute;
+  top: 290px;
+  right: 185px;
+  font-size: large;
+  color: #000000;
+  border-radius: 10px;
+}
+.right-side .c4{
+  position: absolute;
+  top: 299px;
+  right: 130px;
+  font-size: large;
+  color: #000000;
+}
+.right-side .c44{
+  position: absolute;
+  top: 315px;
+  right: 104px;
+  font-size: large;
+  color: #000000;
+}
+.right-side .c444{
+  position: absolute;
+  top: 335px;
+  right: 108px;
+  font-size: large;
+  color: #000000;
+}
+.right-side .c4444{
+  position: absolute;
+  top: 435px;
+  right: 175px;
+  font-size: large;
+  color: #000000;}
+
+  .right-side .fa-video{
+  position: absolute;
+  top: 435px;
+  right: 90px;
+  font-size: large;
+  color: #000000;}
+
+  .right-side .fa-search{
+    position: absolute;
+    top: 435px;
+    right:55px;
+    font-size: large;
+    color: #000000;}
+
+    .right-side .fa-ellipsis-h{
+      position: absolute;
+      top: 435px;
+      right: 25px;
+      font-size: large;
+      color: #000000;}
+  
+
+.right-side .c5{
+  position: absolute;
+  top: 470px;
+  right: 170px;
+  font-size: large;
+  border-radius: 50px;
+  color: #000000;}
+
+  .right-side .c6{
+    position: absolute;
+    top: 510px;
+    right: 130px;
+    font-size: large;
+    color: #000000;}
+
+    .right-side .c7{
+      position: absolute;
+      top: 560px;
+      right: 170px;
+      font-size: large;
+      border-radius: 50px;
+      color: #000000;}
+
+      .right-side .c8{
+        position: absolute;
+        top: 610px;
+        right: 119px;
+        font-size: large;
+        border-radius: 50px;
+        color: #000000;} 
+
+        .right-side .c9{
+          position: absolute;
+          top: 670px;
+          right: 155px;
+          font-size: large;
+          border-radius: 50px;
+          color: #000000;}
+
+          .right-side .c10{
+           position: absolute;
+            top: 690px;
+            right: 80px;
+            font-size: large;
+            color: #000000;}
+
+            .right-side .c11{
+              position: absolute;
+               top: 739px;
+               right: 160px;
+               font-size: large;
+               border-radius: 50px;
+               color: #000000;}
+
+               .right-side .c12{
+                position: absolute;
+                 top: 745px;
+                 right: 92px;
+                 font-size: large;
+                 border-radius: 50px;
+                 color: #000000;}
+  
+                 .right-side .c13{
+                  position: absolute;
+                   top: 790px;
+                   right: 155px;
+                   font-size: large;
+                   border-radius: 50px;
+                   color: #000000;}
+
+                   .right-side .c14{
+                    position: absolute;
+                     top: 805px;
+                     right: 105px;
+                     font-size: large;
+                     color: #000000;}
+
+                     .right-side .c15{
+                      position: absolute;
+                       top: 890px;
+                       right: 155px;
+                       font-size: large;
+                       border-radius: 50px;
+                       color: #000000;}
+
+                      .right-side .c16{
+                        position: absolute;
+                         top: 895px;
+                         right: 120px;
+                         font-size: large;
+                         color: #000000;}
+
+  .story .img1{
+    position: relative;
+     bottom: 390px;
+    left: 420px;
+    margin: 10px;
+    box-shadow: rgb(0, 0, 0); 
+    border-radius: 20px;
+    background-color: #f5f0f0;
+   
+  }
+ .story .fa-plus-icons{
+ position: absolute;
+ top: 150px;
+ left: 850px;
+  }
+  .para{
+
+  }
+  .story .img2{
+    position: relative;
+   bottom: 390px;
+    right: -415px;
+    margin: 10px;
+    box-shadow: #606770;
+    border-radius: 20px;
+    background-color: #f5f0f0;
+  }
+  .story .small2{
+    border: solid 4px #1877f2;
+    position: absolute;
+    border-radius: 50px;
+    top: 120px;
+    left: 670px;
+    margin: 10px;
+    box-shadow: #606770;
+  }
+  .story .img3{
+    position: absolute;
+    top: 100px;
+    left: 860px;
+    margin: 10px;
+    box-shadow: #606770;
+    border-radius: 20px;
+    background-color: #f5f0f0;
+  }
+  .story .small3{
+    border: solid 4px #1877f2;
+    position: absolute;
+    border-radius: 80px;
+    top: 100px;
+    left: 890px;
+    margin:10px;
+    box-shadow: #606770;
+  }
+  .story .img4{
+    position: absolute;
+    top: 100px;
+    right: 389px;
+    margin: 10px;
+    box-shadow: #606770;
+    border-radius: 20px;
+    background-color: #c9b9b9;
+  }
+  .story .small4{
+    border: solid 4px #1877f2;
+    position: absolute;
+    border-radius: 50px;
+    top: 120px;
+    left: 1095px;
+    margin: 10px;
+    box-shadow: #606770;
+  }
+  .story .i1{
+ position: absolute;
+ top: 300px;
+ left: 490px;
+ font-size: large;
+ color: rgb(0, 0, 0);
+  }
+  .story .i2{
+    position: absolute;
+    top: 322px;
+    left: 655px;
+    color: aliceblue;
+    font-size: large;
+     }
+     .story .i3{
+      position: absolute;
+      top: 322px;
+      left: 885px;
+      font-size: large;
+      color: aliceblue;
+       }
+       .story .i4{
+        position: absolute;
+        top: 322px;
+        left: 1110px;
+        font-size: large;
+        color: aliceblue;
+         }
+.story .icons {
+  font-size: 20px;
+  color: #fffdfd;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #1877f2;
+  position: absolute;
+  top: 33%;
+  left: 31.5%;
+  transform: translate(-50% , -50%);
+}
